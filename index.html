@@ -29,7 +29,7 @@
         @page {
             margin: 5mm 5mm 5mm 5mm;
             size: auto;
-            background-color: white;
+            /* background-color: white; */
         }
 
         .skillset {
@@ -52,18 +52,33 @@
         }
 
         @media print {
+            body {
+                height: 800mm;
+                background-color: white;
+            }
 
             * {
-                background-color: white !important;
+                /* background-color: white !important; */
             }
 
             footer {
                 display: none;
             }
 
+            .sidebar-wrapper {
+                position: fixed;
+                left: auto;
+                top: 0;
+                /* height: 367mm; */
+                bottom: 0px;
+            }
+
             .sidebar-wrapper * {
-                background-color: white !important;
-                color: black !important;
+                /* background-color: white !important; */
+                /* color: black !important; */
+
+
+
             }
 
             .section-title {
@@ -77,8 +92,8 @@
     <div class="wrapper">
         <div class="sidebar-wrapper">
             <div class="profile-container">
-                <img class="profile thumbnail rounded-circle" style="width: 100px; height: 100px;"
-                    src="assets/images/aneesijaz.jpg" alt="" />
+                <!-- <img class="profile thumbnail rounded-circle" style="width: 100px; height: 100px;"
+                    src="assets/images/aneesijaz.jpg" alt="" /> -->
                 <h1 class="name">Anees Ijaz</h1>
                 <h3 class="tagline">Full Stack Developer <br /> JavaScript Wizard</h3>
             </div>
