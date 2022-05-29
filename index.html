@@ -33,9 +33,9 @@
         }
 
         .skillset {
-            padding: 15px;
-            list-style-type: square;
-            display: flex;
+            padding: 0px;
+            list-style-type: none;
+            display: grid;
             flex-wrap: wrap;
         }
 
@@ -44,8 +44,7 @@
         }
 
         .skillset li {
-            margin-right: 70px;
-            margin-bottom: 15px;
+            margin-bottom: 7px;
         }
 
         .skillset li::before {
@@ -131,27 +130,10 @@
             <div class="interests-container break-before container-block">
                 <h2 class="container-block-title">Interests</h2>
                 <ul class="list-unstyled interests-list">
-                    <li>Programming</li>
+                    <li>Reading Manga</li>
+                    <li>Reading Novels</li>
                     <li>Tourism</li>
                     <li>Video Games</li>
-                </ul>
-            </div>
-            <!--//interests-->
-
-            <div class="interests-container container-block">
-                <h2 class="container-block-title" title="tools & technologies I have worked with">Tools I've worked with
-                </h2>
-                <ul class="list-unstyled interests-list">
-                    <li>VS CODE | Sublime Text</li>
-                    <li>JAVA | C# | C++</li>
-                    <li>FLUTTER | REACT NATIVE</li>
-                    <li>LINUX | WINDOWS</li>
-                    <li>GOOGLE CLOUD Platform</li>
-                    <li>GOOGLE COMPUTE ENGINE</li>
-                    <li>Github | Stackoverflow</li>
-                    <li>DIGITAL OCEAN | AMAZON AWS</li>
-                    <li>Firebase</li>
-                    <li>And more</li>
                 </ul>
             </div>
             <!--//interests-->
@@ -320,19 +302,27 @@
             <section id="achievements-section" class="section break-before projects-section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-trophy"></i></span>Achievements
                 </h2>
-                <div class="intro">
-                </div>
-                <!--//intro-->
                 <div class="item">
-                    <span class="project-title"><a href="#softech19">Softech 19</a></span> - <span
-                        class="project-tagline">Won national level (student only) web development competition at Fast
-                        NUCES Lahore, Pakistan campus..</span>
+                    <span class="project-title">
+                        <strong>
+                            <a href="#softech19">Softech 19</a>
+                        </strong>
+                    </span> -
+                    <span class="project-tagline">
+                        1st Prize - National Student Level Web Development Competition
+                    </span>
                 </div>
                 <!--//item-->
                 <div class="item">
-                    <span class="project-title"><a href="#visiospark">Visio Spark 18</a></span> - <span
-                        class="project-tagline">Won Visio Spark Web development competetion. Visio Spark is a national
-                        level competition held in Wahcantt campus of Comsats.</span>
+                    <span class="project-title">
+                        <strong>
+                            <a href="#visiospark">Visio Spark 18</a>
+                        </strong>
+                    </span> -
+                    <span class="project-tagline">
+                        1st Prize - A national level Web Development competition held in Wah
+                        Cantt campus of Comsats
+                    </span>
                 </div>
                 <!--//item-->
             </section>
@@ -343,105 +333,82 @@
                 </h2>
                 <!--//intro-->
                 <div class="item">
-                    <span class="project-title"><a rel="nofollow" href="https://buildurcv.com"
-                            target="_blank">Buildurcv</a></span>
-                    - <span class="project-tagline">BuildUrcv is a website in beta mode which enables you to create and
-                        cv through wizard with the template of your own choice. Built using Angular, Express, Material,
-                        MongoDB</span>
+                    <span class="project-title">
+                        <strong>
+                            <a rel="nofollow" href="https://felixworks.nl" target="_blank">
+                                Felixworks
+                            </a>
+                        </strong>
+                    </span> -
+                    <span class="project-tagline">
+                        A web-based application for people to Find and schedule catering
+                        staff easier and a planning system for catering agencies to plan events, manage employees, make
+                        commitments and interact directly with the customers. Technologies: React, Rust, Python, NodeJs,
+                        Typescript, Truss, postgresql, rocket, microservice architecture.
+                    </span>
                 </div>
                 <!--//intro-->
                 <div class="item">
-                    <span class="project-title"><a rel="nofollow" href="##" target="_blank">PDFPRO</a></span>
-                    - <span class="project-tagline">Desktop Application for reading and managing the PDF and Epub files.
-                        Using electronjs and vue.</span>
+                    <span class="project-title">
+                        <strong>
+                            <a rel="nofollow" href="https://metaveum.com" target="_blank">
+                                Metaveum (BETA)
+                            </a>
+                        </strong>
+                    </span> -
+                    <span class="project-tagline">
+                        A web-based mobile app to create and track orders within the
+                        restaurant from the menu available digitally on app. (still in implementation phase)
+                        technologies I used in this one include React, Airtable, express, JWT.
+                    </span>
                 </div>
                 <!--//intro-->
                 <div class="item">
-                    <span class="project-title"><a rel="nofollow" href="##" target="_blank">MTIX360</a></span>
-                    - <span class="project-tagline">Desktop Application created in electronjs and vueJS capable of
-                        taking screenshots and sending over to compatible server using rest.</span>
+                    <span class="project-title">
+                        <strong>
+                            <a rel="nofollow" href="https://buildurcv.com" target="_blank">
+                                BuildUrCv
+                            </a>
+                        </strong>
+                    </span> -
+                    <span class="project-tagline">
+                        A web-based application that simplifies the CV/Resumé creation
+                        process. A wizard helps the user with template selection and content entry. Options to easily
+                        edit, update, and export. Built using Angular, Express.js, Material, MongoDB.
+                    </span>
                 </div>
                 <!--//intro-->
                 <div class="item">
-                    <span class="project-title"><a rel="nofollow" href="http://www.teleosms.com" target="_blank">Teleo
-                            SMS Desktop Application</a></span>
-                    - <span class="project-tagline">Teleo SMS is a reliable bulk sms service provider in
-                        India. <br />Offering Transactional, Promotional, OTP SMS & Bulk SMS API.</span>
+                    <span class="project-title">
+                        <strong>ECrS Accessible Media Player</strong>
+                    </span> -
+                    <span class="project-tagline">
+                        This player supports most of the features required for recorded (time-based) media to conform to
+                        WCAG 2.1 Level AA and AAA. This includes closed captions, subtitles, dubbing
+                        (localization/translation), Audio Description (standard & extended), interactive transcript.
+                        Videos from the local system, G-Drive, Dropbox, and YouTube can be loaded. VTT and JSON caption
+                        files supported. Keyboard accessibility supported. Built using LitElement, Node.js, and Font
+                        Awesome.
+                    </span>
                 </div>
                 <!--//intro-->
                 <div class="item">
-                    <span class="project-title"><a href="##" target="_blank">Avatism Hub</a></span>
-                    - <span class="project-tagline">Application written in electron js and angular to manage the Avatism
-                        editors
-                        (install / uninstall) and projects using seperate profiles.</span>
+                    <span class="project-title">
+                        <strong>
+                            <a href="##" target="_blank">
+                                TimeTracker
+                            </a>
+                        </strong>
+                    </span> -
+                    <span class="project-tagline">
+                        An application that tracks user’s activities across different applications and the timings the
+                        user spent on each application. Saves the information on firebase associated with the user’s
+                        account.
+                        Built using ElectronJs , VueJs, firebase
+                    </span>
                 </div>
-                <!--//intro-->
-                <div class="item">
-                    <span class="project-title"><a href="##" target="_blank">Mango Desktop Client</a></span>
-                    - <span class="project-tagline">Resturant management system written in electronjs and ReactJs that
-                        auto syncs
-                        data with firestore.</span>
-                </div>
-                <!--//intro-->
-                <div class="item">
-                    <span class="project-title"><a href="##" target="_blank">TimeTracker</a></span>
-                    - <span class="project-tagline">Application written using electronjs and ReactJs to track the usuage
-                        of
-                        applications and sync the data over the firebase.</span>
-                </div>
-                <!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="https://reviewsend.com" target="_blank">Review Send</a></span>
-                    - <span class="project-tagline">A Simple React Based Application having blogging functionality
-                        enabled with restfull backend running on express.</span>
-                </div>
-                <!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="http://malikehsaantraders.com/" target="_blank">Malik Ehsaan
-                            Traders</a></span>
-                    - <span class="project-tagline">Wordpress based website for Local business promotion.</span>
-                </div>
-                <!--//item-->
-
-                <div class="item">
-                    <span class="project-title"><a href="#dakanhub">Dakanhub</a></span> - <span
-                        class="project-tagline">Dakanhub is a point of sale system developed using electronjs and
-                        ReactJs.</span>
-                </div>
-                <!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="#empire_captions_editor" target="_blank">Empire Captions
-                            Transcript Editor</a></span> -
-                    <span class="project-tagline"> A web-based text editor that connects with several speech-to-text
-                        engines and allows the user to edit the STT transcript. The application is hosted on Digital
-                        Ocean and utilizes FFMPEG, youtube-dl, and several Google Cloud Platform (GCP) services. </span>
-                </div>
-                <!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="https://github.com/aneesijaz/jshooks" target="_blank">JS
-                            Hooks</a></span> - <span class="project-tagline">A simple hooks module written in nodejs to
-                        achieve hooks functionality in javascript.</span>
-                </div>
-                <!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="https://github.com/aneesijaz/sequelize-import-export"
-                            target="_blank">Sequelize Import Export</a></span> - <span class="project-tagline">A simple
-                        module written in nodejs for exporting and importing database data running Sequelize.</span>
-                </div>
-                <!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="https://github.com/aneesijaz/ecs_media_player"
-                            target="_blank">ECS Video Accessibility Player </a></span> - <span
-                        class="project-tagline">This player accepts videos from YouTube and the local drive along with a
-                        caption/subtitle file (.vtt). The VTT file is used to create an interactive/searchable
-                        transcript and display captions over the video. Built using Lit-Element, node.js and
-                        fontawesome. </span>
-                </div>
-                <!--//item-->
             </section>
             <!--//section-->
-
-
         </div>
         <!--//main-body-->
     </div>

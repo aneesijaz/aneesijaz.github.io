@@ -76,6 +76,7 @@ p {
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
+  margin-bottom: 15px;
 }
 
 .sidebar-wrapper .name {
@@ -105,6 +106,7 @@ p {
 
 .sidebar-wrapper .contact-list li {
   margin-bottom: 15px;
+  display: flex;
 }
 
 .sidebar-wrapper .contact-list li:last-child {
@@ -116,7 +118,7 @@ p {
 }
 
 .sidebar-wrapper .container-block {
-  padding: 30px;
+  padding: 15px 30px;
 }
 
 .sidebar-wrapper .container-block-title {
@@ -185,8 +187,8 @@ p {
 
 .main-wrapper {
   background: #fff;
-  padding: 60px;
-  padding-left: 300px;
+  padding: 30px 60px;
+  padding-left: 280px;
 }
 
 .main-wrapper .section-title {
@@ -196,7 +198,7 @@ p {
   color: #2d7788;
   position: relative;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .main-wrapper .section-title .icon-holder {
@@ -226,11 +228,11 @@ p {
 }
 
 .main-wrapper .section {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .main-wrapper .experiences-section .item {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .main-wrapper .upper-row {
@@ -271,7 +273,7 @@ p {
 }
 
 .main-wrapper .projects-section .item {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .skillset {
@@ -347,4 +349,10 @@ p {
     width: 30%;
     margin-bottom: 0;
   }
+}
+
+dl,
+ol,
+ul {
+  margin: 0;
 }
